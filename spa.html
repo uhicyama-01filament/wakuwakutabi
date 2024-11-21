@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WAKUAKUたび</title>
+  <meta name="description" content="架空のデモサイトです。ワクワクな温泉旅をご提供します。">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="shortcut icon" href="./assets/img/logo/wakuwaku_logo.png" type="image/x-icon">
+  <!--OGP none-->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style02.css">
+  <script src="./assets/js/main.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="aside-left">
+      <div class="h-box-a">
+        <div class="h-logo">
+          <a href="./index.html">
+            <img src="./assets/img/logo/wakwk.png" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="h-info">
+        <p>
+          たび期間<br>11/30 ～ 12/1
+        </p>
+      </div>
+      <div class="h-box-b">
+        <!--hamburger trigger-->
+        <div class="sitemap-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+          <p>めにゅー</p>
+        </div>
+      </div>
+    </div>
+    <nav class="aside-right">
+      <div class="right-nav-text">
+        <img src="./assets/img/illust/home-link-nav.png" alt="">
+      </div>
+      <ul>
+        <!--location.hrefにmatch場合はclassにhidden付与script-->
+        <li class="aside-link-home"><a href="./index.html">
+            <img src="./assets/img/illust/home-link.png" alt="">
+          </a></li>
+        <li class="aside-link-spa"><a href="./spa.html">
+            <img src="./assets/img/illust/spa-link.jpg" alt="">
+          </a></li>
+        <li class="aside-link-menu"><a href="./menu.html">
+            <img src="./assets/img/illust/menu-link.jpg" alt="">
+          </a></li>
+        <li class="aside-link-hotel"><a href="./hotel.html">
+            <img src="./assets/img/illust/hotel-link.jpg" alt="">
+          </a></li>
+        <li class="aside-link-enjoy"><a href="./enjoy.html">
+            <img src="./assets/img/illust/enjoy-link.jpg" alt="">
+          </a></li>
+      </ul>
+    </nav>
+    <!--responsive-under900px-->
+    <div class="top-header">
+      <div class="t-logo">
+        <a href="./index.html">
+          <img src="./assets/img/logo/wakwk.png" alt="">
+        </a>
+      </div>
+      <div class="sitemap-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+        <p>めにゅー</p>
+      </div>
+    </div>
+  </header>
+
+  <!--hamburger-sitemap-->
+  <!--show表示script-->
+  <div id="sitemap" class="sitemap-mask">
+    <nav class="sm-area">
+      <ul class="sm-list">
+        <li><span class="sm-list-number">01</span>
+          <a href="./index.html">ホーム</a>
+        </li>
+        <li><span class="sm-list-number">02</span>
+          <a href="./info.html">ご案内</a>
+        </li>
+        <li><span class="sm-list-number">03</span>
+          <a href="./spa.html">おんせん</a>
+        </li>
+        <li><span class="sm-list-number">04</span>
+          <a href="./menu.html">お食事</a>
+        </li>
+        <li><span class="sm-list-number">05</span>
+          <a href="./hotel.html">ほてる</a>
+        </li>
+        <li><span class="sm-list-number">06</span>
+          <a href="./enjoy.html">あそぶ</a>
+        </li>
+        <li><span class="sm-list-number">07</span>
+          <a href="./contact.html">よくある質問</a>
+        </li>
+        <li><span class="sm-list-number">08</span>
+          <a href="./policy.html">プライバシーポリシー</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <div class="page-bg spa-page">
+
+
+      <div class="text-logo">
+        <img src="./assets/img/illust/spa.png" alt="">
+        <h1>おんせんギャラリー</h1>
+      </div>
+
+      
+
+      <div class="spa-area">
+        <h2 id="yuyama"  class="sub-title">湯山の里（明礬温泉）</h2>
+
+        <p class="spa-text">
+          「源泉湧き出しの湯」・「乳白色の泥湯」・「せせらぎの湯」・「滝見の湯」・「足湯」・「滝湯」
+          全てのお風呂を制覇しましょう！
+        </p>
+
+        <div class="gallery-image">
+          <div id="gallery-st" class="gallery-st st-a">
+            <img id="current-image" class="current-image" src="assets/img/photo/spa01.jpg"
+              alt="gallery photo">
+          </div>
+        </div>
+
+        <ul id="gallery-list" class="gallery-list">
+          <li class="st-a"><img src="assets/img/photo/spa01.jpg" alt="photo"></li>
+          <li class="st-b"><img src="assets/img/photo/spa02.jpg" alt="photo"></li>
+          <li class="st-c"><img src="assets/img/photo/spa03.jpg" alt="photo"></li>
+          <li class="st-d"><img src="assets/img/photo/spa04.jpg" alt="photo"></li>
+          <li class="st-e"><img src="assets/img/photo/spa05.jpg" alt="photo"></li>
+          <li class="st-f"><img src="assets/img/photo/spa06.jpg" alt="photo"></li>
+        </ul>
+
+        <div class="spa-section-br"></div>
+
+        <h2 id="musouen" class="sub-title">夢想園（湯布院温泉）</h2>
+
+        <p class="spa-text">
+          解放感抜群の露天風呂。男性は御夢想の湯・弘法の湯の二つの温泉が楽しめます。御夢想の湯では茅葺き屋根の建物が印象的です。
+          広さは約100畳あり、三和土、自然石を利用した浴槽で田舎らしい素朴な雰囲で肌で感じていただけます。
+        </p>
+
+        <div class="gallery-image">
+          <div id="gallery-st2" class="gallery-st2 st-a">
+            <img id="current-image2" class="current-image2" src="assets/img/photo/spa07.jpg"
+              alt="gallery photo">
+          </div>
+        </div>
+
+        <ul id="gallery-list2" class="gallery-list2">
+          <li class="st-a2"><img src="assets/img/photo/spa07.jpg" alt="photo"></li>
+          <li class="st-b2"><img src="assets/img/photo/spa08.jpg" alt="photo"></li>
+          <li class="st-c2"><img src="assets/img/photo/spa09.jpg" alt="photo"></li>
+          <li class="st-d2"><img src="assets/img/photo/spa10.jpg" alt="photo"></li>
+          <li class="st-e2"><img src="assets/img/photo/spa11.jpg" alt="photo"></li>
+          <li class="st-f2"><img src="assets/img/photo/spa12.jpg" alt="photo"></li>
+        </ul>
+        
+      </div>
+
+      <div class="page-end"></div>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="f-nav">
+      <nav class="f-nav-area">
+        <ul>
+          <li><a href="./index.html">01_ ホーム</a></li>
+          <li><a href="./info.html">02_ ご案内</a></li>
+          <li><a href="./spa.html">03_ 温泉</a></li>
+          <li><a href="./menu.html">04_ お食事</a></li>
+          <li><a href="./hotel.html">05_ ほてる</a></li>
+          <li><a href="./enjoy.html">06_ あそぶ</a></li>
+          <li><a href="./contact.html">07_ よくある質問</a></li>
+          <li><a href="./policy.html">08_ プライバシーポリシー</a></li>
+        </ul>
+      </nav>
+      <div id="reTop" class="reTop">
+        <img src="./assets/img/icon/re-top_icon.png" alt="">
+      </div>
+    </div>
+    <div class="copyright">&copy;2024 WakuWaku trip. All Rights Reserved.</div>
+  </footer>
+</body>
+
+</html>
