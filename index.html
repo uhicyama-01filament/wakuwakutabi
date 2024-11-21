@@ -118,7 +118,8 @@
 
   <main id="main" class="main">
     <!--背景画像-parallax風、画像入れ替え-->
-    <div class="home-bg para">
+    <div class="home-bg-wrapper">
+      <div class="home-bg para"></div>
 
       <div class="wrapper">
 
@@ -446,7 +447,7 @@
             <div class="model"><span style="color:blue">二次会はご用意しておりません</span></div>
 
 
-          
+
           </div>
           <h2 class="section-title">たびのスケジュール案 2日目</h2>
 
@@ -598,7 +599,7 @@
                     <br><br>
                     <span style="color:red">※ なにかあればグループLINEに。</span>
                   </p>
-                  
+
                 </div>
                 <div class="model-right">
                   <div class="model-right-img motionToLeft">
@@ -617,78 +618,82 @@
         </section>
       </div>
 
-    </div>
-
-    <section class="slideshow">
-      <div class="slide-area">
-        <h2 class="section-title">あくまで予定なので、皆さんの意見を聞き入れつつ、変更可能です。</h2>
-        <div class="slide-items">
-          <img src="./assets/img/photo/home-slide-01.jpg" alt="">
-          <img src="./assets/img/photo/home-slide-02.jpg" alt="">
-          <img src="./assets/img/photo/home-slide-03.jpg" alt="">
-          <img src="./assets/img/photo/home-slide-04.jpg" alt="">
-          <img src="./assets/img/photo/home-slide-05.jpg" alt="">
-          <img src="./assets/img/photo/home-slide-06.jpg" alt="">
-        </div>
-        <div class="slide-items">
-          <img src="./assets/img/photo/home-slide-01.jpg" alt="">
-          <img src="./assets/img/photo/home-slide-02.jpg" alt="">
-          <img src="./assets/img/photo/home-slide-03.jpg" alt="">
-          <img src="./assets/img/photo/home-slide-04.jpg" alt="">
-          <img src="./assets/img/photo/home-slide-05.jpg" alt="">
-          <img src="./assets/img/photo/home-slide-06.jpg" alt="">
-        </div>
-      </div>
-    </section>
-
-    <div class="wrapper">
-      <section id="access" class="access">
-        <h2 class="section-title">WakuWakuたび 主要コース</h2>
-        <div class="access-area">
-          <div class="g-map">
-            <iframe
-              src="https://www.google.com/maps/d/u/0/embed?mid=1-BCuh_6X-r3FU--gCimwqAtD_Z3Su4o&ehbc=2E312F&noprof=1"
-              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <section class="slideshow">
+        <div class="slide-area">
+          <h2 class="section-title">あくまで予定なので、皆さんの意見を聞き入れつつ、変更可能です。</h2>
+          <div class="slide-items">
+            <img src="./assets/img/photo/home-slide-01.jpg" alt="">
+            <img src="./assets/img/photo/home-slide-02.jpg" alt="">
+            <img src="./assets/img/photo/home-slide-03.jpg" alt="">
+            <img src="./assets/img/photo/home-slide-04.jpg" alt="">
+            <img src="./assets/img/photo/home-slide-05.jpg" alt="">
+            <img src="./assets/img/photo/home-slide-06.jpg" alt="">
           </div>
-          <div class="access-text">
-            <div>
-              <ul>
-                <li>A&emsp;レストラン リボン</li>
-                <li>B&emsp;湯山の里</li>
-                <li>C&emsp;森藩別邸</li>
-                <li>D&emsp;別府ステーションホテル</li>
-                <li>E&emsp;ろばた仁</li>
-                <li>F&emsp;山のホテル夢想園</li>
-                <li>G&emsp;森のSobaCafeゆふそら</li>
-                <li>H&emsp;ちりめん細工館</li>
-              </ul>
-            </div>
+          <div class="slide-items">
+            <img src="./assets/img/photo/home-slide-01.jpg" alt="">
+            <img src="./assets/img/photo/home-slide-02.jpg" alt="">
+            <img src="./assets/img/photo/home-slide-03.jpg" alt="">
+            <img src="./assets/img/photo/home-slide-04.jpg" alt="">
+            <img src="./assets/img/photo/home-slide-05.jpg" alt="">
+            <img src="./assets/img/photo/home-slide-06.jpg" alt="">
           </div>
         </div>
       </section>
+  
+      
+        <section id="access" class="access">
+          <h2 class="section-title">WakuWakuたび 主要コース</h2>
+          <div class="access-area">
+            <div class="g-map">
+              <iframe
+                src="https://www.google.com/maps/d/u/0/embed?mid=1-BCuh_6X-r3FU--gCimwqAtD_Z3Su4o&ehbc=2E312F&noprof=1"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="access-text">
+              <div>
+                <ul>
+                  <li>A&emsp;レストラン リボン</li>
+                  <li>B&emsp;湯山の里</li>
+                  <li>C&emsp;森藩別邸</li>
+                  <li>D&emsp;別府ステーションホテル</li>
+                  <li>E&emsp;ろばた仁</li>
+                  <li>F&emsp;山のホテル夢想園</li>
+                  <li>G&emsp;森のSobaCafeゆふそら</li>
+                  <li>H&emsp;ちりめん細工館</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+     
+
+      <footer class="footer">
+        <div class="f-nav">
+          <nav class="f-nav-area">
+            <ul>
+              <li><a href="./index.html">01_ ホーム</a></li>
+              <li><a href="./info.html">02_ ご案内</a></li>
+              <li><a href="./spa.html">03_ 温泉</a></li>
+              <li><a href="./menu.html">04_ お食事</a></li>
+              <li><a href="./hotel.html">05_ ほてる</a></li>
+              <li><a href="./enjoy.html">06_ あそぶ</a></li>
+              <li><a href="./contact.html">07_ よくある質問</a></li>
+              <li><a href="./policy.html">08_ プライバシーポリシー</a></li>
+            </ul>
+          </nav>
+          <div id="reTop" class="reTop">
+            <img src="./assets/img/icon/re-top_icon.png" alt="">
+          </div>
+        </div>
+        <div class="copyright">&copy;2024 WakuWaku trip. All Rights Reserved.</div>
+      </footer>
+
     </div>
+
+    
   </main>
 
-  <footer class="footer">
-    <div class="f-nav">
-      <nav class="f-nav-area">
-        <ul>
-          <li><a href="./index.html">01_ ホーム</a></li>
-          <li><a href="./info.html">02_ ご案内</a></li>
-          <li><a href="./spa.html">03_ 温泉</a></li>
-          <li><a href="./menu.html">04_ お食事</a></li>
-          <li><a href="./hotel.html">05_ ほてる</a></li>
-          <li><a href="./enjoy.html">06_ あそぶ</a></li>
-          <li><a href="./contact.html">07_ よくある質問</a></li>
-          <li><a href="./policy.html">08_ プライバシーポリシー</a></li>
-        </ul>
-      </nav>
-      <div id="reTop" class="reTop">
-        <img src="./assets/img/icon/re-top_icon.png" alt="">
-      </div>
-    </div>
-    <div class="copyright">&copy;2024 WakuWaku trip. All Rights Reserved.</div>
-  </footer>
+  
 
 </body>
 
